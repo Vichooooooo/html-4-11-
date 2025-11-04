@@ -129,6 +129,7 @@ a{
 
 main{
     width: 100%;
+    height: 140rem;
 }
 
 .principal{
@@ -255,10 +256,36 @@ main{
 }
 
 
+footer{
+
+    background-color: rgba(43, 43, 43, 0.76);
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+    border-style:groove;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.footercosas{
+    color: aliceblue;
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    
+}
+
+
 /* MEDIA QUERYS */
 
 @media (max-width: 768px){
     
+    main{
+        width: 100%;
+        
+    }
     #parte2{
         width: 80rem;
         font-size: 2.5rem;
@@ -376,7 +403,12 @@ main{
 
 @media (max-width: 425px){
 
-
+    main{
+        width: 100%;
+        
+        
+    }
+    
     .principal{
         height: 430rem;
     }
@@ -507,6 +539,8 @@ main{
     .otrapagina{
         font-size:8rem
     }
+
+    
 }
 
 
